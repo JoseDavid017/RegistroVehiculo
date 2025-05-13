@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Registro Vehiculo"
+            android:textSize="26sp" />
+        <EditText
+            android:id="@+id/editPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Placa" />
+
+        <EditText
+            android:id="@+id/editMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca" />
+
+        <EditText
+            android:id="@+id/editColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color" />
+
+        <Button android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+        <Button android:id="@+id/btnBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar por Placa" />
+        <Button android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar" />
+        <Button android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+        <Button android:id="@+id/btnListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listar Vehículos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:padding="16dp"
+
+            android:text="Resultados aqui"/>
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
